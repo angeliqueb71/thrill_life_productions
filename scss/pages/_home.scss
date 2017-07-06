@@ -19,6 +19,7 @@
 }
 
 .about-text {
+  color:$white;
   padding-top: 6vh;
   padding-bottom: 6vh;
   @include media-breakpoint-up(md) {
@@ -100,23 +101,27 @@
 
 .date {
   font-weight: $bold;
+  margin-top: 1.25em;
+
   &::before {
-    content: '\f1333';
+    content: '\f133';
     display: inline-block;
-    font-family: fontAwesome;
-    margin-right: 5px;
+    font-family: FontAwesome;
+    margin-right: 0.5em;
   }
 }
 
 .price {
   font-weight: $bold;
+
   small {
     font-weight: $normal;
   }
+
   &::before {
     content: '\f145';
     display: inline-block;
-    font-family: fontAwesome;
-    margin-right: 5px;
+    font-family: FontAwesome;
+    margin-right: 0.5em;
   }
 }

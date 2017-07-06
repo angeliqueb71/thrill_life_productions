@@ -3,14 +3,15 @@
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
 
-$red:    #e23400;
-$black:  #1f1f1f;
+$red:   #e23400;
+$black: #1f1f1f;
 $white: #FFF;
 
 // Create grayscale
 
 $gray: #2d2d2d;
-$gray: lighten($gray, 40%);
+$gray-light: lighten($gray, 40%);
+
 
 // Reassign color vars to semantic color scheme
 $brand-danger: $red;
